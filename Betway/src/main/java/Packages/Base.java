@@ -17,7 +17,7 @@ public class Base {
 	public WebDriver initializeddriver() throws IOException
 	{
 		WebDriver driver = null;
-		String downloadPath=System.getProperty("user.dir");
+		String downloadPath=System.getProperty("user.dir");  //inorder to give the generalized location to the properties file. I am using base location of project 
 		
 		
 		Properties prop= new Properties();       
@@ -27,24 +27,26 @@ public class Base {
 		
 		if (prop.getProperty("browser").contains("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
     		driver=new ChromeDriver();
 
 		}
 		
 		else if(prop.getProperty("browser").contains("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 			driver= new FirefoxDriver();
 
 		}
 		
+		
+		
 		else 
 		{
-			System.out.println("No valid browser");
-		}
+			System.out.println("you have to choose from \"chrome\", \"firefox\" or \"headlessbrowser\"");
 
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		}
+		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);   //All the waits are defined here
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
 		

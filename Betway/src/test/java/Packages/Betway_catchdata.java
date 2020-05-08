@@ -13,7 +13,8 @@ public class Betway_catchdata extends Base{
 	public void sample() throws IOException
 	{
 		driver=initializeddriver();
-		
+		System.out.println(driver.getTitle());
+		driver.close();
 	}
 
 }
