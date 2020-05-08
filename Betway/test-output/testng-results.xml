@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-08T10:22:46 IST" name="Default suite" finished-at="2020-05-08T10:23:35 IST" duration-ms="49644">
+  <suite started-at="2020-05-08T11:31:04 IST" name="Default suite" finished-at="2020-05-08T11:31:12 IST" duration-ms="8365">
     <groups>
     </groups>
-    <test started-at="2020-05-08T10:22:46 IST" name="Default test" finished-at="2020-05-08T10:23:35 IST" duration-ms="49644">
+    <test started-at="2020-05-08T11:31:04 IST" name="Default test" finished-at="2020-05-08T11:31:12 IST" duration-ms="8365">
       <class name="Packages.Betway_catchdata">
-        <test-method signature="sample()[pri:0, instance:Packages.Betway_catchdata@1eb5174b]" started-at="2020-05-08T10:22:46 IST" name="sample" finished-at="2020-05-08T10:23:35 IST" duration-ms="49616" status="PASS">
+        <test-method signature="sample()[pri:0, instance:Packages.Betway_catchdata@239b0f9d]" started-at="2020-05-08T11:31:04 IST" name="sample" finished-at="2020-05-08T11:31:12 IST" duration-ms="8340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample -->
