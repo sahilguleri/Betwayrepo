@@ -1,0 +1,6 @@
+17:15:13.865 [main] INFO  Packages.Base - ==============New Run===========
+17:15:18.437 [main] INFO  Packages.Base - firefox is initialized
+17:15:34.294 [main] INFO  Packages.Base - URL hit is:- file:///F:/projwork/matches.html
+17:15:34.301 [main] DEBUG Packages.Betway_catchdata - Assert if the page Title is correct!!!!!:- Online Betting Site | Sports Betting | Betway
+17:15:34.304 [main] FATAL Packages.Betway_catchdata - ==========expected [true] but found [false]==========
+17:15:37.831 [main] INFO  Packages.Betway_catchdata - tear down

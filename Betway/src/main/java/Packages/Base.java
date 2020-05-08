@@ -59,10 +59,20 @@ public class Base {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
 		
+
+		try {
+			driver.get(prop.getProperty("url"));
+			log.info("URL hit is:- "+ prop.getProperty("url"));
+			return driver;
+			
+		} catch (Exception e) {
+			log.fatal("==========" +e.getMessage()+"==========");
+			System.out.println("==============Exception======================");
+			e.printStackTrace();
+			return driver;
+		}
 		
-		driver.get(prop.getProperty("url"));
-		log.info("URL initialized is:- "+ prop.getProperty("url"));
-		return driver;
+		
 	}
 
 }
