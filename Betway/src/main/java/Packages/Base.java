@@ -15,6 +15,7 @@ import org.testng.annotations.Test;
 
 public class Base {
 	private static Logger log=LogManager.getLogger(Base.class.getName());
+	// this is for logging the log comments in ".log" files in "log" folder
 			
 	@Test
 	public WebDriver initializeddriver() throws IOException
