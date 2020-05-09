@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Packages.Betway_catchdata">
+      <class name="Packages.Excel">
         <methods>
-          <include name="sample"/>
+          <include name="read_write"/>
         </methods>
-      </class> <!-- Packages.Betway_catchdata -->
+      </class> <!-- Packages.Excel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

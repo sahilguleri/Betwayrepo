@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-08T17:15:13 IST" name="Suite" finished-at="2020-05-08T17:15:37 IST" duration-ms="23996">
+  <suite started-at="2020-05-09T17:24:20 IST" name="Default suite" finished-at="2020-05-09T17:24:20 IST" duration-ms="712">
     <groups>
     </groups>
-    <test started-at="2020-05-08T17:15:13 IST" name="Test" finished-at="2020-05-08T17:15:37 IST" duration-ms="23996">
-      <class name="Packages.Betway_catchdata">
-        <test-method signature="sample()[pri:0, instance:Packages.Betway_catchdata@73db4768]" started-at="2020-05-08T17:15:13 IST" name="sample" finished-at="2020-05-08T17:15:37 IST" duration-ms="23970" status="PASS">
+    <test started-at="2020-05-09T17:24:20 IST" name="Default test" finished-at="2020-05-09T17:24:20 IST" duration-ms="712">
+      <class name="Packages.Excel">
+        <test-method signature="read_write()[pri:0, instance:Packages.Excel@6a370f4]" started-at="2020-05-09T17:24:20 IST" name="read_write" finished-at="2020-05-09T17:24:20 IST" duration-ms="657" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Packages.Betway_catchdata@73db4768]" started-at="2020-05-08T17:15:37 IST" name="teardown" finished-at="2020-05-08T17:15:37 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Packages.Betway_catchdata -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- read_write -->
+      </class> <!-- Packages.Excel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
